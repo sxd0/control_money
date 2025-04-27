@@ -25,8 +25,7 @@ imports:
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#collections.abc">collections.abc</a>
  &#8226;   <a href="#copyreg">copyreg</a>
- &#8226;   <a href="#csv">csv</a>
- &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#database">database</a>
  &#8226;   <a href="#encodings">encodings</a>
  &#8226;   <a href="#encodings.aliases">encodings.aliases</a>
  &#8226;   <a href="#encodings.ascii">encodings.ascii</a>
@@ -791,6 +790,16 @@ imported by:
 </div>
 
 <div class="node">
+  <a name="_sqlite3"></a>
+  <tt>_sqlite3</tt> <span class="moduletype"><tt>C:\Users\1\AppData\Local\Programs\Python\Python311\DLLs\_sqlite3.pyd</tt></span>  <div class="import">
+imported by:
+    <a href="#sqlite3.dbapi2">sqlite3.dbapi2</a>
+
+  </div>
+
+</div>
+
+<div class="node">
   <a name="_sre"></a>
   <tt>_sre</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imports:
@@ -1439,6 +1448,7 @@ imported by:
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#selectors">selectors</a>
+ &#8226;   <a href="#sqlite3.dbapi2">sqlite3.dbapi2</a>
  &#8226;   <a href="#traceback">traceback</a>
  &#8226;   <a href="#tracemalloc">tracemalloc</a>
  &#8226;   <a href="#typing">typing</a>
@@ -1554,9 +1564,23 @@ imports:
   <div class="import">
 imported by:
     <a href="#importlib.metadata">importlib.metadata</a>
- &#8226;   <a href="#main.py">main.py</a>
- &#8226;   <a href="#notifications">notifications</a>
- &#8226;   <a href="#reports">reports</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="database"></a>
+  <a target="code" href="///C:/Users/1/Downloads/%D1%83%D0%BD%D0%B8%D0%BA/%D0%A0%D0%A3%D0%9F%D1%8B/%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%BA%D1%83%D1%80%D1%81%D0%B0%D1%87/database.py" type="text/plain"><tt>database</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#datetime">datetime</a>
+ &#8226;   <a href="#sqlite3">sqlite3</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
 
   </div>
 
@@ -1605,10 +1629,11 @@ imports:
 imported by:
     <a href="#_strptime">_strptime</a>
  &#8226;   <a href="#calendar">calendar</a>
+ &#8226;   <a href="#database">database</a>
  &#8226;   <a href="#email.utils">email.utils</a>
- &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#notifications">notifications</a>
  &#8226;   <a href="#reports">reports</a>
+ &#8226;   <a href="#sqlite3.dbapi2">sqlite3.dbapi2</a>
 
   </div>
 
@@ -5703,8 +5728,8 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#collections">collections</a>
- &#8226;   <a href="#csv">csv</a>
  &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#sqlite3">sqlite3</a>
 
   </div>
   <div class="import">
@@ -5877,7 +5902,6 @@ imported by:
  &#8226;   <a href="#pyi_rth__tkinter.py">pyi_rth__tkinter.py</a>
  &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
  &#8226;   <a href="#random">random</a>
- &#8226;   <a href="#reports">reports</a>
  &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#socket">socket</a>
  &#8226;   <a href="#subprocess">subprocess</a>
@@ -6290,9 +6314,8 @@ imported by:
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#collections">collections</a>
- &#8226;   <a href="#csv">csv</a>
  &#8226;   <a href="#datetime">datetime</a>
- &#8226;   <a href="#os">os</a>
+ &#8226;   <a href="#sqlite3">sqlite3</a>
 
   </div>
   <div class="import">
@@ -6435,6 +6458,67 @@ imports:
   <div class="import">
 imported by:
     <a href="#email.utils">email.utils</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="sqlite3"></a>
+  <a target="code" href="///C:/Users/1/AppData/Local/Programs/Python/Python311/Lib/sqlite3/__init__.py" type="text/plain"><tt>sqlite3</tt></a>
+<span class="moduletype">Package</span>  <div class="import">
+imports:
+    <a href="#sqlite3">sqlite3</a>
+ &#8226;   <a href="#sqlite3.dbapi2">sqlite3.dbapi2</a>
+ &#8226;   <a href="#sqlite3.dump">sqlite3.dump</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#database">database</a>
+ &#8226;   <a href="#notifications">notifications</a>
+ &#8226;   <a href="#reports">reports</a>
+ &#8226;   <a href="#sqlite3">sqlite3</a>
+ &#8226;   <a href="#sqlite3.dbapi2">sqlite3.dbapi2</a>
+ &#8226;   <a href="#sqlite3.dump">sqlite3.dump</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="sqlite3.dbapi2"></a>
+  <a target="code" href="///C:/Users/1/AppData/Local/Programs/Python/Python311/Lib/sqlite3/dbapi2.py" type="text/plain"><tt>sqlite3.dbapi2</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#_sqlite3">_sqlite3</a>
+ &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#datetime">datetime</a>
+ &#8226;   <a href="#sqlite3">sqlite3</a>
+ &#8226;   <a href="#time">time</a>
+ &#8226;   <a href="#warnings">warnings</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#sqlite3">sqlite3</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="sqlite3.dump"></a>
+  <a target="code" href="///C:/Users/1/AppData/Local/Programs/Python/Python311/Lib/sqlite3/dump.py" type="text/plain"><tt>sqlite3.dump</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#sqlite3">sqlite3</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#sqlite3">sqlite3</a>
 
   </div>
 
@@ -6837,6 +6921,7 @@ imported by:
  &#8226;   <a href="#logging">logging</a>
  &#8226;   <a href="#pprint">pprint</a>
  &#8226;   <a href="#random">random</a>
+ &#8226;   <a href="#sqlite3.dbapi2">sqlite3.dbapi2</a>
  &#8226;   <a href="#subprocess">subprocess</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#threading">threading</a>
@@ -7189,6 +7274,8 @@ imported by:
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#re._parser">re._parser</a>
+ &#8226;   <a href="#sqlite3">sqlite3</a>
+ &#8226;   <a href="#sqlite3.dbapi2">sqlite3.dbapi2</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
  &#8226;   <a href="#sre_constants">sre_constants</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
